@@ -16,7 +16,7 @@ def assign_rooms(array)
   while counter < 8
     room_assigned = []
     array.each do |name|
-      room_assigned << "Hello, #{name}!You'll be assigned to room #{counter}!"
+      room_assigned << "Hello, #{name}! You'll be assigned to room #{counter}!"
     end
     counter += 1
   end
