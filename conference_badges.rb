@@ -10,3 +10,9 @@ def batch_badge_creator(array)
   end
   return array_of_badge_massage
 end
+
+def assign_rooms(array)
+  counter = 1
+  while counter < 8
+    array.each do
+end
